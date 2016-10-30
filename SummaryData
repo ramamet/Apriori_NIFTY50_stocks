@@ -31,25 +31,27 @@ includes extended transaction information - examples:
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 >> summary(rules)
-set of 443294 rules
+
+set of 13465699 rules
 
 rule length distribution (lhs + rhs):sizes
-     2      3 
-  9391 433903 
+       2        3        4 
+    9391   433903 13022405 
 
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-  2.000   3.000   3.000   2.979   3.000   3.000 
+  2.000   4.000   4.000   3.966   4.000   4.000 
 
 summary of quality measures:
     support          confidence          lift       
- Min.   :0.02839   Min.   :0.2500   Min.   :0.4814  
- 1st Qu.:0.09189   1st Qu.:0.3993   1st Qu.:0.8045  
- Median :0.10635   Median :0.5000   Median :1.0069  
- Mean   :0.12619   Mean   :0.5024   Mean   :1.0128  
- 3rd Qu.:0.16366   3rd Qu.:0.6035   3rd Qu.:1.2190  
- Max.   :0.40165   Max.   :0.9127   Max.   :1.8289  
+ Min.   :0.01033   Min.   :0.2500   Min.   :0.4729  
+ 1st Qu.:0.04182   1st Qu.:0.4104   1st Qu.:0.8337  
+ Median :0.05111   Median :0.5036   Median :1.0173  
+ Mean   :0.06390   Mean   :0.5090   Mean   :1.0260  
+ 3rd Qu.:0.06763   3rd Qu.:0.6013   3rd Qu.:1.2076  
+ Max.   :0.40165   Max.   :0.9710   Max.   :1.9831  
 
 mining info:
  data ntransactions support confidence
    dd          1937    0.01       0.25
+
 
