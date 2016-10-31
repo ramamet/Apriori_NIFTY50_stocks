@@ -1,7 +1,8 @@
-# Apriori_NSE_stocks
+# Apriori_NIFTY50_stocks
  
 Apriori is designed to operate on databases containing transcations like collection of items bought by customers<br />
 Association rules on large scale NSE stocks data <br />
+
 ## by Confidence score
 ![myconf](https://cloud.githubusercontent.com/assets/16385390/19840605/e95a2b1a-9ef9-11e6-9c3a-7782f4d2cbd0.jpg)
 
