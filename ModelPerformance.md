@@ -31,10 +31,10 @@ To predict the trend line of selected company with related group companies movem
 for Tatamotors,
  
  ```r
- >>tata_rules<-apriori(data=dd, parameter=list(supp=0.01,conf = 0.25,minlen=2,maxlen=6), 
+ >> tata_rules<-apriori(data=dd, parameter=list(supp=0.01,conf = 0.25,minlen=2,maxlen=6), 
                appearance = list(default="lhs",rhs="TATAMOTORS=1"))
 
- >>  inspect(sort(tata_rules, by='lift', decreasing = T)[1:5])  
+ >> inspect(sort(tata_rules, by='lift', decreasing = T)[1:5])  
  
 ```  
 
