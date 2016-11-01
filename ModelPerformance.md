@@ -1,4 +1,7 @@
+ ```r
 >> inspect(sort(rules, by = "lift")[1:10])
+``` 
+
 
      lhs                                     rhs       support   confidence
 [1]  {ICICIBANK=0,RELIANCE=0,WIPRO=0}     => {nifty=0} 0.1925658 0.9613402 
